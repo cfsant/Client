@@ -1,7 +1,9 @@
 import React from 'react';
+import Grpc from 'grpc';
+import GrpcWeb from 'grpc-web';
 import logo from './logo.svg';
 import './App.css';
-import User from '../proto/user_pb'
+import UserService from '../proto/user_pb'
 
 function App() {
   return (
